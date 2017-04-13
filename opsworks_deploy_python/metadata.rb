@@ -4,7 +4,7 @@ maintainer_email "alecpm@gmail.com"
 license          "BSD License"
 description      "Deploys and configures zc.buildout based applications"
 long_description  IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          "0.0.1"
+version "0.0.1"
 
 # supports "ubuntu"
 
@@ -21,14 +21,14 @@ version          "0.0.1"
 # recipe "opsworks_deploy_python::django", "Install and setup a django based python application"
 # recipe "opsworks_deploy_python::r3-mount-patch", "Patch to mount /mnt filesystems for r3 instances"
 
-depends ‘application’, ‘~> 5.0’
-depends ‘application_git’, ‘~> 1.0’
-# depends ‘application_javascript’, ‘~> 1.0’
-depends ‘application_python’, ‘~> 4.0’
+depends 'application', '~> 5.0'
+depends 'application_git', '~> 1.0'
+# depends 'application_javascript', '~> 1.0'
+depends 'application_python', '~> 4.0'
 # depends ‘application_ruby’, ‘~> 4.0’
 # depends ‘build-essential’
-depends ‘poise’, ‘~> 2.0’
-depends ‘poise-python’
-depends ‘poise-archive’, ‘~> 1.3’
-depends ‘apt’, ‘~> 6.0.1’
+depends 'poise', '~> 2.0'
+depends 'poise-python'
+depends 'poise-archive', '~> 1.3'
+depends 'apt', '~> 6.0.1'
 
