@@ -27,8 +27,8 @@ version "0.0.1"
 # depends 'application_python', '~> 4.0'
 # # depends ‘application_ruby’, ‘~> 4.0’
 # # depends ‘build-essential’
-# depends 'poise', '~> 2.0'
-# depends 'poise-python'
+depends 'poise', '~> 2.0'
+depends 'poise-python'
 # depends 'poise-archive', '~> 1.3'
 # depends 'apt', '~> 6.0.1'
 
