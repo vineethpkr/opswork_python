@@ -21,11 +21,14 @@
 # recipe "opsworks_deploy_python::django", "Install and setup a django based python application"
 # recipe "opsworks_deploy_python::r3-mount-patch", "Patch to mount /mnt filesystems for r3 instances"
 
+depends ‘application’, ‘~> 5.0’
+depends ‘application_git’, ‘~> 1.0’
+# depends ‘application_javascript’, ‘~> 1.0’
+depends ‘application_python’, ‘~> 4.0’
+# depends ‘application_ruby’, ‘~> 4.0’
+# depends ‘build-essential’
+depends ‘poise’, ‘~> 2.0’
+depends ‘poise-python’
+depends ‘poise-archive’, ‘~> 1.3’
+depends ‘apt’, ‘~> 6.0.1’
 
-cookbook ‘poise’, gem: ‘poise’
-cookbook ‘application’, gem: ‘poise-application’
-cookbook ‘application_git’, gem: ‘poise-application-git’
-cookbook ‘application_python’, gem: ‘poise-application-python’
-#cookbook ‘poise-archive’, gem: ‘poise-archive’
-cookbook ‘poise-git’, gem: ‘poise-git’
-cookbook ‘poise-python’, gem: ‘poise-python’
