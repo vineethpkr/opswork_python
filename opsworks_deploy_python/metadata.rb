@@ -1,10 +1,10 @@
-# name             "opsworks_deploy_python"
-# maintainer       "Alec Mitchell"
-# maintainer_email "alecpm@gmail.com"
-# license          "BSD License"
-# description      "Deploys and configures zc.buildout based applications"
-# long_description  IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-# version          "0.0.1"
+name             "opsworks_deploy_python"
+maintainer       "Alec Mitchell"
+maintainer_email "alecpm@gmail.com"
+license          "BSD License"
+description      "Deploys and configures zc.buildout based applications"
+long_description  IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+version          "0.0.1"
 
 # supports "ubuntu"
 
